@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <div className="navbar justify-between bg-base-300">
+        <div className="navbar justify-between bg-primary h-[70px]">
           <div>
             <label htmlFor="my-drawer" className="btn btn-square btn-ghost">
               <svg
@@ -27,7 +27,7 @@ const Header = () => {
               </svg>
             </label>
             <Link href="/" className="btn btn-ghost rounded-full ">
-              <Image src="/logo.jpg" alt="logo" width={40} height={40} />
+              <Image src="/logo.png" alt="logo" width={60} height={70} />
             </Link>
           </div>
 

@@ -26,8 +26,9 @@ const Header = () => {
                 />
               </svg>
             </label>
-            <Link href="/" className="btn btn-ghost rounded-full ">
-              <Image src="/logo.png" alt="logo" width={60} height={70} />
+            <Link href="/" className="btn btn-ghost rounded-full  ">
+              <Image src="/logo.png" alt="logo" width={40} height={40} />
+              Consumer&#39;s Shop 
             </Link>
           </div>
 
